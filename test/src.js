@@ -121,11 +121,9 @@ describe('source stream', function() {
     stream.write(expectedFile);
   });
 
-  it('should strip BOM from UTF-8-encoded files', function(done) {
+  it('should NOT strip BOM from UTF-8-encoded files', function(done) {
     var expectedPath = path.join(__dirname, './fixtures/bom-utf8.txt');
-    var expectedContent = fs.readFileSync(expectedPath)
-      // U+FEFF takes up 3 bytes in UTF-8: http://mothereff.in/utf-8#%EF%BB%BF
-      .slice(3);
+    var expectedContent = fs.readFileSync(expectedPath);
 
     var onEnd = function(){
       buffered.length.should.equal(1);

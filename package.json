@@ -1,10 +1,16 @@
 {
-  "name": "vinyl-fs",
+  "name": "vinyl-fs-that-respects-files",
   "description": "Vinyl adapter for the file system",
-  "version": "1.0.0",
-  "homepage": "http://github.com/wearefractal/vinyl-fs",
-  "repository": "git://github.com/wearefractal/vinyl-fs.git",
-  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "version": "1.0.1",
+  "homepage": "http://github.com/jbenet/vinyl-fs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbenet/vinyl-fs.git"
+  },
+  "author": [
+    "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+    "Juan Benet <juan@benet.ai>"
+  ],
   "main": "./index.js",
   "files": [
     "index.js",
@@ -20,8 +26,6 @@
     "merge-stream": "^0.1.7",
     "mkdirp": "^0.5.0",
     "object-assign": "^3.0.0",
-    "strip-bom": "^2.0.0",
-    "strip-bom-stream": "^1.0.0",
     "through2": "^2.0.0",
     "through2-filter": "^2.0.0",
     "vinyl": "^0.5.0"
@@ -44,5 +48,8 @@
   "engines": {
     "node": ">=0.10"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wearefractal/vinyl-fs/issues"
+  }
 }
