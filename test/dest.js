@@ -5,7 +5,7 @@ var statSpy = spies.statSpy;
 var vfs = require('../');
 
 var path = require('path');
-var fs = require('graceful-fs');
+var fs = require('fs');
 var rimraf = require('rimraf');
 
 var bufEqual = require('buffer-equal');

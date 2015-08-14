@@ -1,7 +1,7 @@
 {
-  "name": "vinyl-fs-that-respects-files",
+  "name": "vinyl-fs-browser",
   "description": "Vinyl adapter for the file system",
-  "version": "1.0.2",
+  "version": "0.1.0",
   "homepage": "http://github.com/jbenet/vinyl-fs",
   "repository": {
     "type": "git",
@@ -26,8 +26,6 @@
     "duplexify": "^3.2.0",
     "glob-stream": "^5.0.0",
     "glob-watcher": "^2.0.0",
-    "graceful-fs": "^4.0.0",
-    "gulp-sourcemaps": "^1.5.2",
     "is-valid-glob": "^0.3.0",
     "merge-stream": "^0.1.7",
     "mkdirp": "^0.5.0",

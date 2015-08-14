@@ -1,7 +1,7 @@
 var vfs = require('../');
 
 var path = require('path');
-var fs = require('graceful-fs');
+var fs = require('fs');
 
 var bufEqual = require('buffer-equal');
 var through = require('through2');
