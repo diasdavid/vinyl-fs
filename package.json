@@ -11,12 +11,18 @@
     "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
     "Juan Benet <juan@benet.ai>"
   ],
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
   "main": "./index.js",
   "files": [
     "index.js",
     "lib"
   ],
   "dependencies": {
+    "brfs": "^1.4.1",
     "duplexify": "^3.2.0",
     "glob-stream": "^5.0.0",
     "graceful-fs": "^4.0.0",
@@ -52,5 +58,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wearefractal/vinyl-fs/issues"
+  },
+  "directories": {
+    "test": "test"
   }
 }
