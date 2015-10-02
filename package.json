@@ -1,7 +1,7 @@
 {
   "name": "vinyl-fs-browser",
   "description": "Vinyl adapter for the file system",
-  "version": "2.1.1",
+  "version": "2.1.1-1",
   "homepage": "http://github.com/jbenet/vinyl-fs",
   "repository": {
     "type": "git",
