@@ -16,9 +16,6 @@
       "brfs"
     ]
   },
-  "browser": {
-    "graceful-fs": "fs"
-  },
   "main": "./index.js",
   "files": [
     "index.js",
